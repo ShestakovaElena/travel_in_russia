@@ -1,0 +1,39 @@
+.cover__title {
+    font-family: 'Inter', Arial, sans-serif; 
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 78px;
+    text-align: center;
+    color: #FFFDFD;
+    margin: 274px auto 0;
+    position: relative;
+    z-index: 1;
+}
+@media all and (max-width: 1279px) {
+    .cover__title {
+        width: 55%;
+        margin: 200px auto 0;    
+    }
+}
+@media all and (max-width: 1023px) {
+    .cover__title {
+        width: 70%;
+        margin: 170px auto 0;       
+    }
+}
+@media all and (max-width: 650px) {
+    .cover__title {
+        width: 60%;
+        font-size: 32px;
+        line-height: 35px;
+        margin: 107px auto 0;   
+    }
+}
+
+@media all and (max-width: 374px) {
+    .cover__title {
+        width: 75%;
+        margin: 64px auto 0;   
+    }
+}

@@ -1,0 +1,14 @@
+.place__text{
+    max-width: 484px;
+}
+
+@media screen and (max-width: 767px) {
+    .place__text {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 376px) {
+    .place__text {
+        width: 90%;
+    }
+}

@@ -1,0 +1,29 @@
+.comment_quote {
+    max-width: 382px;
+    font-family: 'Inter', Arial, sans-serif; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 0 0 24px 0;
+}
+@media all and (max-width: 1279px) and (min-width: 1024px) {
+    .comment_quote  {
+        margin: 0 0 16px 0;         
+    }
+    
+}
+
+@media all and (max-width: 1023px) {
+    .comment_quote  {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        order: 3; 
+        margin: 0;         
+    }
+    
+}

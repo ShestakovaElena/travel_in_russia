@@ -1,0 +1,21 @@
+.intro__information {
+    max-width: 383px;
+    font-family: 'Inter', Arial, sans-serif; 
+    font-style: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin: 0;
+}
+@media all and (max-width: 768px) {
+    .intro__information {
+        font-size: 12px;
+        line-height: 19px; 
+    }
+}
+@media all and (max-width: 425px) {
+    .intro__information {
+        font-size: 12px;
+        line-height: 19px;
+    }
+}

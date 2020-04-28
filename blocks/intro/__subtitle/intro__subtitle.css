@@ -1,0 +1,10 @@
+.intro__subtitle {
+    max-width: 683px;
+    font-family: 'Inter', Arial, sans-serif; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin: 0 0 35px;
+}
